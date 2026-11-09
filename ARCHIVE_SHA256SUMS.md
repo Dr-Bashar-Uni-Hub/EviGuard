@@ -1,0 +1,15 @@
+# Frozen archive SHA-256 checksums
+
+These checksums were computed over the original local research archives. The archives have **not** yet been uploaded to GitHub.
+
+```text
+6ccfe3c35b341262a3223875d330e50c83d308d93e5a35b424ea1f1ae6d82d84  EviGuard_Research_Suite_v1_2.zip
+f805de864846071d4bc19bbb66ef7e58fb3b0fb5083fff095f718560634c8214  EviGuard_Final_Campaign_v1_0.zip
+007762e46e6c2e52de4e55e3890e1f15b58a1411448fb5656a69da45cc3f0ed4  EviGuard_v1_2_Results_20261109T200649Z.tar.gz
+c77b363dc2539de87491b7e1119d21dc2587b31b5c4778f3f61d2e4e62c45078  EviGuard_Final_Campaign_Results_20261109T203315Z.tar.gz
+e987ede321e4033fb947a9697a7f450afd7675293275e1bf07287e97c  CACV_Linux_Phase4_1_Results.tar.gz
+a43808b136de135e46ca7ec7945295cf723dd11b1c336d114d171afb1e9ebf56  CACV_Linux_Phase5_1_Results.tar.gz
+4848aa44c09db8a30bfb46cc10035704c19fdb361e74dbc746c8615353be8659  CACV_Linux_Phase6_Results.tar.gz
+```
+
+Check after downloading the research bundle: `sha256sum -c SHA256SUMS.txt` (run in the directory containing the individual archives).
