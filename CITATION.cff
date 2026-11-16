@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it as below."
+title: "EviGuard: Measuring Authorization-to-Enforcement Exposure for DHCP-Derived Source Authorization on Linux nftables"
+authors:
+  - family-names: "ALHAJAHMAD"
+    given-names: "Bashar"
+    affiliation: "Department of Computer Engineering, Siirt University, Türkiye"
+    orcid: "https://orcid.org/0009-0009-3455-7206"
+version: "1.1.0"
+date-released: "2026-11-16"
+license: MIT
+repository-code: "https://github.com/Dr-Bashar-Uni-Hub/EviGuard"

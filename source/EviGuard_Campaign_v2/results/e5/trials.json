@@ -1,0 +1,2283 @@
+{
+ "env": {
+  "kernel": "6.18.44-fc-v338",
+  "nft": "nftables v1.0.9 (Old Doc Yak #3)",
+  "dnsmasq": "Dnsmasq version 2.91  Copyright (c) 2000-2025 Simon Kelley",
+  "busybox": "BusyBox v1.36.1 (Ubuntu 1:1.36.1-6ubuntu3.1) multi-call binary.",
+  "python": "Python 3.12.3",
+  "os": "Ubuntu 24.04.5 LTS",
+  "cpus": 1,
+  "mem_mb": 3990,
+  "virt": "docker",
+  "R": 20,
+  "macs": {
+   "server": "aa:44:d8:29:65:88",
+   "victim": "d2:84:15:b2:ea:88",
+   "attacker": "4a:41:75:7b:83:82"
+  }
+ },
+ "rows": [
+  {
+   "policy": "A_ip_only",
+   "state": "authorized",
+   "scenario": "legit",
+   "rep": 0,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "authorized",
+   "scenario": "spoof_ip",
+   "rep": 0,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "authorized",
+   "scenario": "spoof_ip_mac",
+   "rep": 0,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "authorized",
+   "scenario": "legit",
+   "rep": 1,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "authorized",
+   "scenario": "spoof_ip",
+   "rep": 1,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "authorized",
+   "scenario": "spoof_ip_mac",
+   "rep": 1,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "authorized",
+   "scenario": "legit",
+   "rep": 2,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "authorized",
+   "scenario": "spoof_ip",
+   "rep": 2,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "authorized",
+   "scenario": "spoof_ip_mac",
+   "rep": 2,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "authorized",
+   "scenario": "legit",
+   "rep": 3,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "authorized",
+   "scenario": "spoof_ip",
+   "rep": 3,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "authorized",
+   "scenario": "spoof_ip_mac",
+   "rep": 3,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "authorized",
+   "scenario": "legit",
+   "rep": 4,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "authorized",
+   "scenario": "spoof_ip",
+   "rep": 4,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "authorized",
+   "scenario": "spoof_ip_mac",
+   "rep": 4,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "authorized",
+   "scenario": "legit",
+   "rep": 5,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "authorized",
+   "scenario": "spoof_ip",
+   "rep": 5,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "authorized",
+   "scenario": "spoof_ip_mac",
+   "rep": 5,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "authorized",
+   "scenario": "legit",
+   "rep": 6,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "authorized",
+   "scenario": "spoof_ip",
+   "rep": 6,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "authorized",
+   "scenario": "spoof_ip_mac",
+   "rep": 6,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "authorized",
+   "scenario": "legit",
+   "rep": 7,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "authorized",
+   "scenario": "spoof_ip",
+   "rep": 7,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "authorized",
+   "scenario": "spoof_ip_mac",
+   "rep": 7,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "authorized",
+   "scenario": "legit",
+   "rep": 8,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "authorized",
+   "scenario": "spoof_ip",
+   "rep": 8,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "authorized",
+   "scenario": "spoof_ip_mac",
+   "rep": 8,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "authorized",
+   "scenario": "legit",
+   "rep": 9,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "authorized",
+   "scenario": "spoof_ip",
+   "rep": 9,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "authorized",
+   "scenario": "spoof_ip_mac",
+   "rep": 9,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "authorized",
+   "scenario": "legit",
+   "rep": 10,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "authorized",
+   "scenario": "spoof_ip",
+   "rep": 10,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "authorized",
+   "scenario": "spoof_ip_mac",
+   "rep": 10,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "authorized",
+   "scenario": "legit",
+   "rep": 11,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "authorized",
+   "scenario": "spoof_ip",
+   "rep": 11,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "authorized",
+   "scenario": "spoof_ip_mac",
+   "rep": 11,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "authorized",
+   "scenario": "legit",
+   "rep": 12,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "authorized",
+   "scenario": "spoof_ip",
+   "rep": 12,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "authorized",
+   "scenario": "spoof_ip_mac",
+   "rep": 12,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "authorized",
+   "scenario": "legit",
+   "rep": 13,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "authorized",
+   "scenario": "spoof_ip",
+   "rep": 13,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "authorized",
+   "scenario": "spoof_ip_mac",
+   "rep": 13,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "authorized",
+   "scenario": "legit",
+   "rep": 14,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "authorized",
+   "scenario": "spoof_ip",
+   "rep": 14,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "authorized",
+   "scenario": "spoof_ip_mac",
+   "rep": 14,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "authorized",
+   "scenario": "legit",
+   "rep": 15,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "authorized",
+   "scenario": "spoof_ip",
+   "rep": 15,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "authorized",
+   "scenario": "spoof_ip_mac",
+   "rep": 15,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "authorized",
+   "scenario": "legit",
+   "rep": 16,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "authorized",
+   "scenario": "spoof_ip",
+   "rep": 16,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "authorized",
+   "scenario": "spoof_ip_mac",
+   "rep": 16,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "authorized",
+   "scenario": "legit",
+   "rep": 17,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "authorized",
+   "scenario": "spoof_ip",
+   "rep": 17,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "authorized",
+   "scenario": "spoof_ip_mac",
+   "rep": 17,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "authorized",
+   "scenario": "legit",
+   "rep": 18,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "authorized",
+   "scenario": "spoof_ip",
+   "rep": 18,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "authorized",
+   "scenario": "spoof_ip_mac",
+   "rep": 18,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "authorized",
+   "scenario": "legit",
+   "rep": 19,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "authorized",
+   "scenario": "spoof_ip",
+   "rep": 19,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "authorized",
+   "scenario": "spoof_ip_mac",
+   "rep": 19,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "revoked",
+   "scenario": "legit",
+   "rep": 0,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "revoked",
+   "scenario": "spoof_ip",
+   "rep": 0,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "revoked",
+   "scenario": "spoof_ip_mac",
+   "rep": 0,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "revoked",
+   "scenario": "legit",
+   "rep": 1,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "revoked",
+   "scenario": "spoof_ip",
+   "rep": 1,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "revoked",
+   "scenario": "spoof_ip_mac",
+   "rep": 1,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "revoked",
+   "scenario": "legit",
+   "rep": 2,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "revoked",
+   "scenario": "spoof_ip",
+   "rep": 2,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "revoked",
+   "scenario": "spoof_ip_mac",
+   "rep": 2,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "revoked",
+   "scenario": "legit",
+   "rep": 3,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "revoked",
+   "scenario": "spoof_ip",
+   "rep": 3,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "revoked",
+   "scenario": "spoof_ip_mac",
+   "rep": 3,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "revoked",
+   "scenario": "legit",
+   "rep": 4,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "revoked",
+   "scenario": "spoof_ip",
+   "rep": 4,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "revoked",
+   "scenario": "spoof_ip_mac",
+   "rep": 4,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "revoked",
+   "scenario": "legit",
+   "rep": 5,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "revoked",
+   "scenario": "spoof_ip",
+   "rep": 5,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "revoked",
+   "scenario": "spoof_ip_mac",
+   "rep": 5,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "revoked",
+   "scenario": "legit",
+   "rep": 6,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "revoked",
+   "scenario": "spoof_ip",
+   "rep": 6,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "revoked",
+   "scenario": "spoof_ip_mac",
+   "rep": 6,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "revoked",
+   "scenario": "legit",
+   "rep": 7,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "revoked",
+   "scenario": "spoof_ip",
+   "rep": 7,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "revoked",
+   "scenario": "spoof_ip_mac",
+   "rep": 7,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "revoked",
+   "scenario": "legit",
+   "rep": 8,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "revoked",
+   "scenario": "spoof_ip",
+   "rep": 8,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "revoked",
+   "scenario": "spoof_ip_mac",
+   "rep": 8,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "revoked",
+   "scenario": "legit",
+   "rep": 9,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "revoked",
+   "scenario": "spoof_ip",
+   "rep": 9,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "revoked",
+   "scenario": "spoof_ip_mac",
+   "rep": 9,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "revoked",
+   "scenario": "legit",
+   "rep": 10,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "revoked",
+   "scenario": "spoof_ip",
+   "rep": 10,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "revoked",
+   "scenario": "spoof_ip_mac",
+   "rep": 10,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "revoked",
+   "scenario": "legit",
+   "rep": 11,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "revoked",
+   "scenario": "spoof_ip",
+   "rep": 11,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "revoked",
+   "scenario": "spoof_ip_mac",
+   "rep": 11,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "revoked",
+   "scenario": "legit",
+   "rep": 12,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "revoked",
+   "scenario": "spoof_ip",
+   "rep": 12,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "revoked",
+   "scenario": "spoof_ip_mac",
+   "rep": 12,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "revoked",
+   "scenario": "legit",
+   "rep": 13,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "revoked",
+   "scenario": "spoof_ip",
+   "rep": 13,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "revoked",
+   "scenario": "spoof_ip_mac",
+   "rep": 13,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "revoked",
+   "scenario": "legit",
+   "rep": 14,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "revoked",
+   "scenario": "spoof_ip",
+   "rep": 14,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "revoked",
+   "scenario": "spoof_ip_mac",
+   "rep": 14,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "revoked",
+   "scenario": "legit",
+   "rep": 15,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "revoked",
+   "scenario": "spoof_ip",
+   "rep": 15,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "revoked",
+   "scenario": "spoof_ip_mac",
+   "rep": 15,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "revoked",
+   "scenario": "legit",
+   "rep": 16,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "revoked",
+   "scenario": "spoof_ip",
+   "rep": 16,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "revoked",
+   "scenario": "spoof_ip_mac",
+   "rep": 16,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "revoked",
+   "scenario": "legit",
+   "rep": 17,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "revoked",
+   "scenario": "spoof_ip",
+   "rep": 17,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "revoked",
+   "scenario": "spoof_ip_mac",
+   "rep": 17,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "revoked",
+   "scenario": "legit",
+   "rep": 18,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "revoked",
+   "scenario": "spoof_ip",
+   "rep": 18,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "revoked",
+   "scenario": "spoof_ip_mac",
+   "rep": 18,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "revoked",
+   "scenario": "legit",
+   "rep": 19,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "revoked",
+   "scenario": "spoof_ip",
+   "rep": 19,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "A_ip_only",
+   "state": "revoked",
+   "scenario": "spoof_ip_mac",
+   "rep": 19,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "authorized",
+   "scenario": "legit",
+   "rep": 0,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "authorized",
+   "scenario": "spoof_ip",
+   "rep": 0,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "authorized",
+   "scenario": "spoof_ip_mac",
+   "rep": 0,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "authorized",
+   "scenario": "legit",
+   "rep": 1,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "authorized",
+   "scenario": "spoof_ip",
+   "rep": 1,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "authorized",
+   "scenario": "spoof_ip_mac",
+   "rep": 1,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "authorized",
+   "scenario": "legit",
+   "rep": 2,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "authorized",
+   "scenario": "spoof_ip",
+   "rep": 2,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "authorized",
+   "scenario": "spoof_ip_mac",
+   "rep": 2,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "authorized",
+   "scenario": "legit",
+   "rep": 3,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "authorized",
+   "scenario": "spoof_ip",
+   "rep": 3,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "authorized",
+   "scenario": "spoof_ip_mac",
+   "rep": 3,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "authorized",
+   "scenario": "legit",
+   "rep": 4,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "authorized",
+   "scenario": "spoof_ip",
+   "rep": 4,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "authorized",
+   "scenario": "spoof_ip_mac",
+   "rep": 4,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "authorized",
+   "scenario": "legit",
+   "rep": 5,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "authorized",
+   "scenario": "spoof_ip",
+   "rep": 5,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "authorized",
+   "scenario": "spoof_ip_mac",
+   "rep": 5,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "authorized",
+   "scenario": "legit",
+   "rep": 6,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "authorized",
+   "scenario": "spoof_ip",
+   "rep": 6,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "authorized",
+   "scenario": "spoof_ip_mac",
+   "rep": 6,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "authorized",
+   "scenario": "legit",
+   "rep": 7,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "authorized",
+   "scenario": "spoof_ip",
+   "rep": 7,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "authorized",
+   "scenario": "spoof_ip_mac",
+   "rep": 7,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "authorized",
+   "scenario": "legit",
+   "rep": 8,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "authorized",
+   "scenario": "spoof_ip",
+   "rep": 8,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "authorized",
+   "scenario": "spoof_ip_mac",
+   "rep": 8,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "authorized",
+   "scenario": "legit",
+   "rep": 9,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "authorized",
+   "scenario": "spoof_ip",
+   "rep": 9,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "authorized",
+   "scenario": "spoof_ip_mac",
+   "rep": 9,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "authorized",
+   "scenario": "legit",
+   "rep": 10,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "authorized",
+   "scenario": "spoof_ip",
+   "rep": 10,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "authorized",
+   "scenario": "spoof_ip_mac",
+   "rep": 10,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "authorized",
+   "scenario": "legit",
+   "rep": 11,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "authorized",
+   "scenario": "spoof_ip",
+   "rep": 11,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "authorized",
+   "scenario": "spoof_ip_mac",
+   "rep": 11,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "authorized",
+   "scenario": "legit",
+   "rep": 12,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "authorized",
+   "scenario": "spoof_ip",
+   "rep": 12,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "authorized",
+   "scenario": "spoof_ip_mac",
+   "rep": 12,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "authorized",
+   "scenario": "legit",
+   "rep": 13,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "authorized",
+   "scenario": "spoof_ip",
+   "rep": 13,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "authorized",
+   "scenario": "spoof_ip_mac",
+   "rep": 13,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "authorized",
+   "scenario": "legit",
+   "rep": 14,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "authorized",
+   "scenario": "spoof_ip",
+   "rep": 14,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "authorized",
+   "scenario": "spoof_ip_mac",
+   "rep": 14,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "authorized",
+   "scenario": "legit",
+   "rep": 15,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "authorized",
+   "scenario": "spoof_ip",
+   "rep": 15,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "authorized",
+   "scenario": "spoof_ip_mac",
+   "rep": 15,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "authorized",
+   "scenario": "legit",
+   "rep": 16,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "authorized",
+   "scenario": "spoof_ip",
+   "rep": 16,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "authorized",
+   "scenario": "spoof_ip_mac",
+   "rep": 16,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "authorized",
+   "scenario": "legit",
+   "rep": 17,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "authorized",
+   "scenario": "spoof_ip",
+   "rep": 17,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "authorized",
+   "scenario": "spoof_ip_mac",
+   "rep": 17,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "authorized",
+   "scenario": "legit",
+   "rep": 18,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "authorized",
+   "scenario": "spoof_ip",
+   "rep": 18,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "authorized",
+   "scenario": "spoof_ip_mac",
+   "rep": 18,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "authorized",
+   "scenario": "legit",
+   "rep": 19,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "authorized",
+   "scenario": "spoof_ip",
+   "rep": 19,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "authorized",
+   "scenario": "spoof_ip_mac",
+   "rep": 19,
+   "sent": 50,
+   "delivered": 50
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "revoked",
+   "scenario": "legit",
+   "rep": 0,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "revoked",
+   "scenario": "spoof_ip",
+   "rep": 0,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "revoked",
+   "scenario": "spoof_ip_mac",
+   "rep": 0,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "revoked",
+   "scenario": "legit",
+   "rep": 1,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "revoked",
+   "scenario": "spoof_ip",
+   "rep": 1,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "revoked",
+   "scenario": "spoof_ip_mac",
+   "rep": 1,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "revoked",
+   "scenario": "legit",
+   "rep": 2,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "revoked",
+   "scenario": "spoof_ip",
+   "rep": 2,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "revoked",
+   "scenario": "spoof_ip_mac",
+   "rep": 2,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "revoked",
+   "scenario": "legit",
+   "rep": 3,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "revoked",
+   "scenario": "spoof_ip",
+   "rep": 3,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "revoked",
+   "scenario": "spoof_ip_mac",
+   "rep": 3,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "revoked",
+   "scenario": "legit",
+   "rep": 4,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "revoked",
+   "scenario": "spoof_ip",
+   "rep": 4,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "revoked",
+   "scenario": "spoof_ip_mac",
+   "rep": 4,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "revoked",
+   "scenario": "legit",
+   "rep": 5,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "revoked",
+   "scenario": "spoof_ip",
+   "rep": 5,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "revoked",
+   "scenario": "spoof_ip_mac",
+   "rep": 5,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "revoked",
+   "scenario": "legit",
+   "rep": 6,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "revoked",
+   "scenario": "spoof_ip",
+   "rep": 6,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "revoked",
+   "scenario": "spoof_ip_mac",
+   "rep": 6,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "revoked",
+   "scenario": "legit",
+   "rep": 7,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "revoked",
+   "scenario": "spoof_ip",
+   "rep": 7,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "revoked",
+   "scenario": "spoof_ip_mac",
+   "rep": 7,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "revoked",
+   "scenario": "legit",
+   "rep": 8,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "revoked",
+   "scenario": "spoof_ip",
+   "rep": 8,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "revoked",
+   "scenario": "spoof_ip_mac",
+   "rep": 8,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "revoked",
+   "scenario": "legit",
+   "rep": 9,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "revoked",
+   "scenario": "spoof_ip",
+   "rep": 9,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "revoked",
+   "scenario": "spoof_ip_mac",
+   "rep": 9,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "revoked",
+   "scenario": "legit",
+   "rep": 10,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "revoked",
+   "scenario": "spoof_ip",
+   "rep": 10,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "revoked",
+   "scenario": "spoof_ip_mac",
+   "rep": 10,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "revoked",
+   "scenario": "legit",
+   "rep": 11,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "revoked",
+   "scenario": "spoof_ip",
+   "rep": 11,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "revoked",
+   "scenario": "spoof_ip_mac",
+   "rep": 11,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "revoked",
+   "scenario": "legit",
+   "rep": 12,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "revoked",
+   "scenario": "spoof_ip",
+   "rep": 12,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "revoked",
+   "scenario": "spoof_ip_mac",
+   "rep": 12,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "revoked",
+   "scenario": "legit",
+   "rep": 13,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "revoked",
+   "scenario": "spoof_ip",
+   "rep": 13,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "revoked",
+   "scenario": "spoof_ip_mac",
+   "rep": 13,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "revoked",
+   "scenario": "legit",
+   "rep": 14,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "revoked",
+   "scenario": "spoof_ip",
+   "rep": 14,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "revoked",
+   "scenario": "spoof_ip_mac",
+   "rep": 14,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "revoked",
+   "scenario": "legit",
+   "rep": 15,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "revoked",
+   "scenario": "spoof_ip",
+   "rep": 15,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "revoked",
+   "scenario": "spoof_ip_mac",
+   "rep": 15,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "revoked",
+   "scenario": "legit",
+   "rep": 16,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "revoked",
+   "scenario": "spoof_ip",
+   "rep": 16,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "revoked",
+   "scenario": "spoof_ip_mac",
+   "rep": 16,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "revoked",
+   "scenario": "legit",
+   "rep": 17,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "revoked",
+   "scenario": "spoof_ip",
+   "rep": 17,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "revoked",
+   "scenario": "spoof_ip_mac",
+   "rep": 17,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "revoked",
+   "scenario": "legit",
+   "rep": 18,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "revoked",
+   "scenario": "spoof_ip",
+   "rep": 18,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "revoked",
+   "scenario": "spoof_ip_mac",
+   "rep": 18,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "revoked",
+   "scenario": "legit",
+   "rep": 19,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "revoked",
+   "scenario": "spoof_ip",
+   "rep": 19,
+   "sent": 50,
+   "delivered": 0
+  },
+  {
+   "policy": "B_ip_mac",
+   "state": "revoked",
+   "scenario": "spoof_ip_mac",
+   "rep": 19,
+   "sent": 50,
+   "delivered": 0
+  }
+ ],
+ "arp": [
+  {
+   "rep": 0,
+   "before": [
+    "d2:84:15:b2:ea:88",
+    [
+     "REACHABLE"
+    ]
+   ],
+   "after": [
+    "4a:41:75:7b:83:82",
+    [
+     "REACHABLE"
+    ]
+   ],
+   "overwritten": true,
+   "victim_mac_lost": true
+  },
+  {
+   "rep": 1,
+   "before": [
+    "d2:84:15:b2:ea:88",
+    [
+     "REACHABLE"
+    ]
+   ],
+   "after": [
+    "4a:41:75:7b:83:82",
+    [
+     "REACHABLE"
+    ]
+   ],
+   "overwritten": true,
+   "victim_mac_lost": true
+  },
+  {
+   "rep": 2,
+   "before": [
+    "d2:84:15:b2:ea:88",
+    [
+     "REACHABLE"
+    ]
+   ],
+   "after": [
+    "4a:41:75:7b:83:82",
+    [
+     "REACHABLE"
+    ]
+   ],
+   "overwritten": true,
+   "victim_mac_lost": true
+  },
+  {
+   "rep": 3,
+   "before": [
+    "d2:84:15:b2:ea:88",
+    [
+     "REACHABLE"
+    ]
+   ],
+   "after": [
+    "4a:41:75:7b:83:82",
+    [
+     "REACHABLE"
+    ]
+   ],
+   "overwritten": true,
+   "victim_mac_lost": true
+  },
+  {
+   "rep": 4,
+   "before": [
+    "d2:84:15:b2:ea:88",
+    [
+     "REACHABLE"
+    ]
+   ],
+   "after": [
+    "4a:41:75:7b:83:82",
+    [
+     "REACHABLE"
+    ]
+   ],
+   "overwritten": true,
+   "victim_mac_lost": true
+  },
+  {
+   "rep": 5,
+   "before": [
+    "d2:84:15:b2:ea:88",
+    [
+     "REACHABLE"
+    ]
+   ],
+   "after": [
+    "4a:41:75:7b:83:82",
+    [
+     "REACHABLE"
+    ]
+   ],
+   "overwritten": true,
+   "victim_mac_lost": true
+  },
+  {
+   "rep": 6,
+   "before": [
+    "d2:84:15:b2:ea:88",
+    [
+     "REACHABLE"
+    ]
+   ],
+   "after": [
+    "4a:41:75:7b:83:82",
+    [
+     "REACHABLE"
+    ]
+   ],
+   "overwritten": true,
+   "victim_mac_lost": true
+  },
+  {
+   "rep": 7,
+   "before": [
+    "d2:84:15:b2:ea:88",
+    [
+     "REACHABLE"
+    ]
+   ],
+   "after": [
+    "4a:41:75:7b:83:82",
+    [
+     "REACHABLE"
+    ]
+   ],
+   "overwritten": true,
+   "victim_mac_lost": true
+  },
+  {
+   "rep": 8,
+   "before": [
+    "d2:84:15:b2:ea:88",
+    [
+     "REACHABLE"
+    ]
+   ],
+   "after": [
+    "4a:41:75:7b:83:82",
+    [
+     "REACHABLE"
+    ]
+   ],
+   "overwritten": true,
+   "victim_mac_lost": true
+  },
+  {
+   "rep": 9,
+   "before": [
+    "d2:84:15:b2:ea:88",
+    [
+     "REACHABLE"
+    ]
+   ],
+   "after": [
+    "4a:41:75:7b:83:82",
+    [
+     "REACHABLE"
+    ]
+   ],
+   "overwritten": true,
+   "victim_mac_lost": true
+  },
+  {
+   "rep": 10,
+   "before": [
+    "d2:84:15:b2:ea:88",
+    [
+     "REACHABLE"
+    ]
+   ],
+   "after": [
+    "4a:41:75:7b:83:82",
+    [
+     "REACHABLE"
+    ]
+   ],
+   "overwritten": true,
+   "victim_mac_lost": true
+  },
+  {
+   "rep": 11,
+   "before": [
+    "d2:84:15:b2:ea:88",
+    [
+     "REACHABLE"
+    ]
+   ],
+   "after": [
+    "4a:41:75:7b:83:82",
+    [
+     "REACHABLE"
+    ]
+   ],
+   "overwritten": true,
+   "victim_mac_lost": true
+  },
+  {
+   "rep": 12,
+   "before": [
+    "d2:84:15:b2:ea:88",
+    [
+     "REACHABLE"
+    ]
+   ],
+   "after": [
+    "4a:41:75:7b:83:82",
+    [
+     "REACHABLE"
+    ]
+   ],
+   "overwritten": true,
+   "victim_mac_lost": true
+  },
+  {
+   "rep": 13,
+   "before": [
+    "d2:84:15:b2:ea:88",
+    [
+     "REACHABLE"
+    ]
+   ],
+   "after": [
+    "4a:41:75:7b:83:82",
+    [
+     "REACHABLE"
+    ]
+   ],
+   "overwritten": true,
+   "victim_mac_lost": true
+  },
+  {
+   "rep": 14,
+   "before": [
+    "d2:84:15:b2:ea:88",
+    [
+     "REACHABLE"
+    ]
+   ],
+   "after": [
+    "4a:41:75:7b:83:82",
+    [
+     "REACHABLE"
+    ]
+   ],
+   "overwritten": true,
+   "victim_mac_lost": true
+  },
+  {
+   "rep": 15,
+   "before": [
+    "d2:84:15:b2:ea:88",
+    [
+     "REACHABLE"
+    ]
+   ],
+   "after": [
+    "4a:41:75:7b:83:82",
+    [
+     "REACHABLE"
+    ]
+   ],
+   "overwritten": true,
+   "victim_mac_lost": true
+  },
+  {
+   "rep": 16,
+   "before": [
+    "d2:84:15:b2:ea:88",
+    [
+     "REACHABLE"
+    ]
+   ],
+   "after": [
+    "4a:41:75:7b:83:82",
+    [
+     "REACHABLE"
+    ]
+   ],
+   "overwritten": true,
+   "victim_mac_lost": true
+  },
+  {
+   "rep": 17,
+   "before": [
+    "d2:84:15:b2:ea:88",
+    [
+     "REACHABLE"
+    ]
+   ],
+   "after": [
+    "4a:41:75:7b:83:82",
+    [
+     "REACHABLE"
+    ]
+   ],
+   "overwritten": true,
+   "victim_mac_lost": true
+  },
+  {
+   "rep": 18,
+   "before": [
+    "d2:84:15:b2:ea:88",
+    [
+     "REACHABLE"
+    ]
+   ],
+   "after": [
+    "4a:41:75:7b:83:82",
+    [
+     "REACHABLE"
+    ]
+   ],
+   "overwritten": true,
+   "victim_mac_lost": true
+  },
+  {
+   "rep": 19,
+   "before": [
+    "d2:84:15:b2:ea:88",
+    [
+     "REACHABLE"
+    ]
+   ],
+   "after": [
+    "4a:41:75:7b:83:82",
+    [
+     "REACHABLE"
+    ]
+   ],
+   "overwritten": true,
+   "victim_mac_lost": true
+  }
+ ]
+}
